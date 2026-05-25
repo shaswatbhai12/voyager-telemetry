@@ -13,7 +13,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 
 // Textures
 const loader = new THREE.TextureLoader();
-const spaceTex = loader.load('./src/assets/surface.png');
+const spaceTex = loader.load('/surface.png');
 
 // 1. planet sphere
 const planetGeo = new THREE.SphereGeometry(1.6, 32, 32);
