@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interstellar Mission Tracker</title>
+  </head>
+  <body>
+    <div id="mission-ui">
+      <header>
+        <span class="status-detector">Deep Space Telementry</span>
+        <h1>Voyager 1</h1>
+        <p class="desc">Tracking Humanity's Longest journey into the interstellar void</p>
+      </header>
+      <section class="data-screen">
+        <div class="metric">
+          <span class="label">Total Range:</span>
+          <span class="metric-val">24.4 + Billion KM</span>
+        </div>
+        <div class="metric">
+          <span class="label">Total Speed:</span>
+          <span class="metric-val">17.01 km/s</span>
+        </div>
+      </section>
+      <footer>
+        <p>Created by Shaswat for Hack Club Polygon YSWS</p>
+      </footer>
+    </div>
+
+    <canvas id="star-viewport"></canvas>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
